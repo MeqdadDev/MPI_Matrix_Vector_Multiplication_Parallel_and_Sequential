@@ -267,6 +267,6 @@ main(int argc, char **argv) {
 
 	exit(0);
 
-// ............:::::::: Finalizing and Realising End ::::::::............
+// ............:::::::: Finalizing and Releasing End ::::::::............
 
 }
