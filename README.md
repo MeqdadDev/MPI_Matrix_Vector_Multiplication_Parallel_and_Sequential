@@ -14,7 +14,7 @@ This program use multiprocessing technique via MPI library, i.e. the execution w
   ### mpicc -o parallel MPI_Parallel.c
 - To execute the object file, type this:
   ### mpirun -np 4 parallel
-
+*Note: here, number 4 represents the number of processors that will be used in the execution of the program.
 ------------------------------------------------
 
   Good luck,
