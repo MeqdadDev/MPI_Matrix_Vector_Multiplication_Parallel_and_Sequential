@@ -4,9 +4,13 @@ This program executed on Linux CentOS.
 * ## Sequential:
 This program used here to compare the results (i.e. execution time) with the parallel program.
 - To compile this program on the terminal, type this command:
-  ### gcc -o sequential Sequential.c
+  ```sh
+  gcc -o sequential Sequential.c
+  ```
   Object file with name sequential will be generated, to execute this file, type this:
-  ### ./sequential
+  ```sh
+  ./sequential
+  ```
   #
 * ## Parallel:
 This program use multiprocessing technique via MPI library, i.e. the execution will be on multiprocessors.
