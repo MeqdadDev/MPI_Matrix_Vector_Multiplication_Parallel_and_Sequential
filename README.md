@@ -15,12 +15,16 @@ This program used here to compare the results (i.e. execution time) with the par
 * ## Parallel:
 This program use multiprocessing technique via MPI library, i.e. the execution will be on multiprocessors.
 - To compile this program, type this:
-  ### mpicc -o parallel MPI_Parallel.c
+  ```sh
+  mpicc -o parallel MPI_Parallel.c
+  ```
 - To execute the object file, type this:
-  ### mpirun -np 4 parallel
-*Note: here, number 4 represents the number of processors that will be used in the execution of the program.
+  ```sh
+  mpirun -np 4 parallel
+  ```
+*Note: Number 4 in the last command represents the number of processors that will be used in the execution of the program.
 ------------------------------------------------
 
   Good luck,
   Done by:
-  ## Eng. Meqdad Darweesh
+  ### Eng. Meqdad Darweesh
