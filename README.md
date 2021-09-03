@@ -22,9 +22,8 @@ This program use multiprocessing technique via MPI library, i.e. the execution w
   ```sh
   mpirun -np 4 parallel
   ```
-*Note: Number 4 in the last command represents the number of processors that will be used in the execution of the program.
+#### _Note:_ Number 4 in the last command represents the number of processors that will be used in the execution of the program.
 ------------------------------------------------
 
-  Good luck,
   Done by:
   ### Eng. Meqdad Darweesh
